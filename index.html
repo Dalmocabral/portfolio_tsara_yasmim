@@ -4,6 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tsara Yasmim | Baralho Cigano, Magia Natural & Espiritualidade</title>
+
+    <!-- Limpeza de Service Workers e caches antigos de outros projetos em localhost -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (var reg of registrations) {
+            reg.unregister();
+            console.log('[Tsara Yasmim] Service Worker antigo desregistrado.');
+          }
+        });
+      }
+      if ('caches' in window) {
+        caches.keys().then(function(names) {
+          for (var name of names) {
+            caches.delete(name);
+          }
+        });
+      }
+    </script>
     
     <!-- Meta SEO -->
     <meta name="description" content="Conecte-se com seu destino através da sabedoria sagrada do Baralho Cigano, Magia Natural e Terapias Energéticas com Tsara Yasmim. Agende sua consulta online." />
