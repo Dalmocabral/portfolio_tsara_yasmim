@@ -1,0 +1,7 @@
+# robots.txt - Tsara Manouche Yasmin
+User-agent: *
+Allow: /
+
+# Sitemap oficial para motores de busca (Google, Bing, etc.)
+Sitemap: https://tsaramanucheyasmim.com.br/sitemap.xml
+
