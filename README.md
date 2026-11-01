@@ -28,9 +28,9 @@
 ## 🔮 Visão Geral
 
 O projeto foi construído para apresentar de forma elegante, acolhedora e responsiva os atendimentos e cursos da **Tsara Manouche Yasmin**:
-- **Consultas com Baralho Cigano (Petit Lenormand)**: Online por videochamada ou presencial no Rio de Janeiro.
+- **Consultas com Baralho Cigano (Petit Lenormand), Outros Oráculos e Numerologia**: Online por videochamada ou presencial no Rio de Janeiro.
 - **Mapa Numerológico Cabalístico**: Decodificação sagrada de nome e data de nascimento.
-- **Cursos Formativos**: Formações registradas (básico ao avançado) presenciais e online.
+- **Cursos & Vivências**: Cursos de Baralho Cigano (Petit Lenormand), atividades de evolução espiritual presenciais e Cursos de Magia Cigana (presencial e online).
 - **Reconhecimento Oficial**: Homenagem da Câmara Municipal do Rio de Janeiro através de *Moção de Louvor, Congratulações e Aplausos*.
 
 ---

@@ -247,15 +247,15 @@ function App() {
 
                 <div className="sobre-paragraphs">
                   <p>
-                    A Tsara Manuche Yasmim é um espaço dedicado à espiritualidade, ao autoconhecimento e à preservação da cultura e da ancestralidade do povo cigano. Por meio da sabedoria do Baralho Cigano (Petit Lenormand) e da Numerologia, oferecemos consultas e orientações que auxiliam na reflexão, na compreensão de questões pessoais e na descoberta de novas perspectivas para a vida.
+                    A <strong>Tsara Manuche Yasmim</strong> é um espaço dedicado à espiritualidade, ao autoconhecimento e à valorização da cultura e da ancestralidade do povo cigano. Por meio do <strong>Baralho Cigano (Petit Lenormand)</strong>, de outros oráculos e da <strong>Numerologia</strong>, oferecemos consultas e orientações que ajudam a ampliar a compreensão sobre questões pessoais, refletir sobre os desafios da vida e descobrir novas perspectivas e possibilidades.
                   </p>
 
                   <p>
-                    Além das consultas, oferecemos cursos de Baralho Cigano (Petit Lenormand), presenciais e online, destinados tanto a quem deseja dar os primeiros passos nessa prática quanto àqueles que buscam aprofundar seus conhecimentos e desenvolver sua conexão com as cartas.
+                    Além dos atendimentos, a Tsara oferece cursos e vivências voltados ao aprendizado, ao desenvolvimento espiritual e ao aprofundamento dos conhecimentos das tradições ciganas. Nossa programação inclui <strong>cursos de Baralho Cigano (Petit Lenormand)</strong>, atividades de evolução espiritual dentro da Tsara, realizadas presencialmente, e <strong>cursos de Magia Cigana</strong>, disponíveis nas modalidades presencial e online. As atividades são destinadas tanto a quem deseja iniciar sua jornada quanto àqueles que buscam aprofundar seus conhecimentos e sua conexão com essas práticas.
                   </p>
 
                   <p>
-                    Nosso trabalho é guiado pelo respeito, pelo amor e pela valorização dos ensinamentos transmitidos entre gerações. Acreditamos que preservar a cultura cigana é também reconhecer sua história, sua identidade, sua espiritualidade e sua contribuição para a sociedade.
+                    Nossa missão vai além de oferecer consultas e transmitir conhecimentos: buscamos manter vivas as tradições, valorizar a ancestralidade e compartilhar ensinamentos com responsabilidade, respeito e dedicação. Acreditamos que preservar a cultura cigana significa honrar sua história, reconhecer sua identidade e respeitar sua riqueza espiritual, cultural e humana.
                   </p>
 
                   <div className="about-mocao-card">
@@ -264,12 +264,12 @@ function App() {
                       <h3 className="mocao-title">Moção de Louvor da Câmara Municipal do Rio de Janeiro</h3>
                     </div>
                     <p>
-                      Esse compromisso com a valorização e a divulgação da cultura cigana foi reconhecido pela Câmara Municipal do Rio de Janeiro, por meio de uma Moção de Louvor, Congratulações e Aplausos concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin, com destaque para o trabalho sacerdotal de Aretha Equiavone Costa. Essa homenagem representa um reconhecimento público da dedicação à preservação das tradições, da ancestralidade e dos valores culturais e espirituais do povo cigano.
+                      Esse compromisso com a valorização e a divulgação da cultura cigana foi reconhecido pela <strong>Câmara Municipal do Rio de Janeiro</strong>, por meio de uma <strong>Moção de Louvor, Congratulações e Aplausos</strong> concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin, com destaque para o trabalho sacerdotal de <strong>Aretha Equiavone Costa</strong>. Essa homenagem representa um reconhecimento público da dedicação à preservação das tradições, da ancestralidade e dos valores culturais e espirituais do povo cigano.
                     </p>
                   </div>
 
                   <p>
-                    Mais do que oferecer consultas e cursos, a Tsara Manuche Yasmim busca manter viva uma tradição, compartilhar conhecimentos e acolher cada pessoa em sua jornada de autoconhecimento, sempre com respeito à história e à riqueza da cultura cigana.
+                    Na Tsara Manuche Yasmim, cada atendimento, curso e ensinamento representa uma oportunidade de aprendizado, acolhimento e conexão com uma tradição que merece ser respeitada, valorizada e transmitida às próximas gerações.
                   </p>
                 </div>
               </div>
@@ -369,7 +369,7 @@ function App() {
                   </div>
                   <div className="orientadora-badge-footer">
                     <span className="orientadora-name">Aretha Equiavone Costa</span>
-                    <span className="orientadora-sub">Sacerdote & Orientadora Espiritual</span>
+                    <span className="orientadora-sub">Sacerdotisa & Orientadora Espiritual</span>
                   </div>
                 </div>
               </div>
@@ -378,27 +378,27 @@ function App() {
               <div className="orientadora-text-col">
                 <span className="section-eyebrow">Sacerdócio & Sensibilidade</span>
                 <h3 className="section-title">Aretha Equiavone Costa</h3>
-                <span className="orientadora-role-tag">Sacerdote da Tsara Manuche Yasmim • Oraculista & Numeróloga</span>
+                <span className="orientadora-role-tag">Sacerdotisa da Tsara Manuche Yasmim • Oraculista e Orientadora Espiritual</span>
 
                 <div className="sobre-paragraphs">
                   <p>
-                    Com mais de 10 anos de trajetória dedicada à espiritualidade, ao autoconhecimento e à valorização da cultura cigana, <strong>Aretha Equiavone Costa</strong> atua como sacerdotisa e orientadora espiritual à frente da <strong>Tsara Manuche Yasmim</strong>. Sua caminhada é marcada pelo compromisso com a sabedoria ancestral, o acolhimento e a transmissão de conhecimentos que atravessam gerações.
+                    Com mais de 10 anos de trajetória dedicada à espiritualidade, ao autoconhecimento e à valorização da cultura cigana, <strong>Aretha Equiavone Costa</strong> está à frente da <strong>Tsara Manuche Yasmim</strong>, desenvolvendo um trabalho pautado na sabedoria ancestral, no acolhimento e na transmissão de conhecimentos espirituais.
                   </p>
 
                   <p>
-                    Especialista na leitura do <strong>Baralho Cigano (Petit Lenormand)</strong> e em <strong>Numerologia</strong>, Aretha realiza consultas individuais com sensibilidade, ética e respeito à história de cada pessoa. Seu trabalho busca oferecer orientação, clareza e novas perspectivas diante dos desafios da vida, incentivando o autoconhecimento e a reflexão sobre os caminhos e as possibilidades de cada consulente.
+                    Sua atuação abrange a leitura do <strong>Baralho Cigano (Petit Lenormand)</strong> e de outros oráculos, oferecendo consultas voltadas à orientação espiritual, à reflexão e à busca por clareza diante dos desafios da vida. Com sensibilidade e respeito à individualidade de cada consulente, seu trabalho procura apresentar novas perspectivas e auxiliar cada pessoa em sua jornada pessoal.
                   </p>
 
                   <p>
-                    Além dos atendimentos, dedica-se à formação de novos alunos por meio de <strong>cursos de Baralho Cigano (Petit Lenormand)</strong>, presenciais e online, compartilhando seus conhecimentos e contribuindo para a continuidade dessa prática oracular com responsabilidade, dedicação e respeito às tradições.
+                    Além dos atendimentos oraculares, Aretha dedica-se à realização de <strong>rituais ciganos</strong> e práticas de <strong>Magia Cigana</strong>, mantendo o compromisso de compartilhar seus conhecimentos com responsabilidade, respeito e valorização das tradições espirituais. Também promove <strong>cursos presenciais e online</strong>, proporcionando a quem deseja aprender a oportunidade de conhecer e aprofundar seus conhecimentos sobre o Baralho Cigano, os oráculos e as práticas espirituais da Tsara.
                   </p>
 
                   <p>
-                    Sua atuação também se destaca pela divulgação e preservação da cultura, da espiritualidade e da ancestralidade do povo cigano. Esse compromisso recebeu reconhecimento da <strong>Câmara Municipal do Rio de Janeiro</strong>, que concedeu à Tsara Espiritualista Estrela do Oriente Manouche Yasmin uma <strong>Moção de Louvor, Congratulações e Aplausos</strong>, destacando o trabalho sacerdotal de Aretha e sua dedicação à preservação dos valores culturais e espirituais ciganos.
+                    Sua trajetória também é marcada pelo compromisso com a preservação, valorização e divulgação da cultura e da ancestralidade do povo cigano. Esse trabalho recebeu reconhecimento da <strong>Câmara Municipal do Rio de Janeiro</strong>, que concedeu à Tsara Espiritualista Estrela do Oriente Manouche Yasmin uma <strong>Moção de Louvor, Congratulações e Aplausos</strong>, destacando a dedicação de Aretha ao trabalho sacerdotal e à preservação dos valores culturais e espirituais ciganos.
                   </p>
 
                   <p>
-                    Mais do que uma profissão, sua trajetória representa uma jornada de dedicação, aprendizado e compromisso com a espiritualidade, mantendo viva a riqueza das tradições ciganas e compartilhando seus ensinamentos com respeito, amor e responsabilidade.
+                    Mais do que uma trajetória profissional, sua caminhada representa anos de dedicação à espiritualidade, ao ensino e à valorização das tradições ciganas. Por meio das consultas, dos cursos e das práticas espirituais, Aretha busca compartilhar conhecimentos, acolher pessoas e contribuir para que essa riqueza cultural e ancestral continue viva e seja transmitida às próximas gerações.
                   </p>
 
                   <div className="orientadora-pills">
