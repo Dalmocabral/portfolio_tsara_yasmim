@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Sparkles, ShieldCheck, Sun, Moon, Feather } from 'lucide-react';
+import { Heart, Sparkles, ShieldCheck, Sun, BookOpen, MapPin } from 'lucide-react';
 import { mysticAudio } from '../utils/audio';
 
 export default function AboutSection() {
@@ -12,16 +12,16 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs uppercase tracking-widest text-amber-400 font-semibold px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20">
-            Conexão & Ancestralidade
+            Conexão, Tradição & Ancestralidade
           </span>
           <h2 className="text-3xl md:text-5xl font-bold font-cinzel text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200 mt-4 mb-3">
-            Quem é Tsara Yasmim
+            O Centro Espírita Cigano & Tsara Yasmim
           </h2>
           <div className="ornament-line">
             <Sparkles className="w-4 h-4 text-amber-400" />
           </div>
           <p className="text-gray-300 font-serif text-lg md:text-xl italic">
-            “O Baralho Cigano não existe para prever um destino estático, mas sim para acender a tocha que ilumina suas melhores escolhas.”
+            “O Baralho Cigano e o Tarot não existem para aprisionar destinos, mas para acender a tocha da consciência e despertar sua força interior sob as bênçãos de Santa Sara Kali.”
           </p>
         </div>
 
@@ -35,43 +35,44 @@ export default function AboutSection() {
               <div className="relative rounded-3xl overflow-hidden border-2 border-amber-400/40 shadow-2xl shadow-purple-950/80 bg-[#120824]">
                 <img
                   src="./images/tsara-yasmim.jpg"
-                  alt="Tsara Yasmim - Taróloga e Terapeuta Holística"
+                  alt="Tsara Yasmim - Centro Espírita Cigano, Taróloga e Mentora"
                   className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
                 />
                 {/* Gradiente escuro no rodapé da imagem com legenda */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#090314] via-transparent to-transparent opacity-80" />
-                <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-purple-950/80 backdrop-blur-md border border-amber-400/30">
+                <div className="absolute inset-0 bg-gradient-to-t from-[#090314] via-transparent to-transparent opacity-85" />
+                <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-purple-950/85 backdrop-blur-md border border-amber-400/30">
                   <p className="font-cinzel text-amber-200 text-sm font-bold">Tsara Yasmim</p>
-                  <p className="text-xs text-purple-300">Guardada sob o manto de Santa Sara Kali</p>
+                  <p className="text-xs text-purple-300">Sacerdotisa, Taróloga & Mentora Espiritual</p>
+                  <p className="text-[11px] text-amber-400/80 mt-0.5">Guardada sob o manto de Santa Sara Kali</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Biografia e Missão */}
+          {/* Biografia, Templo e Missão */}
           <div className="lg:col-span-7 flex flex-col gap-6">
             <div className="space-y-4 text-gray-200 leading-relaxed text-sm md:text-base">
               <p>
-                Com raízes firmadas na espiritualidade cigana e consagrada na energia do povo do Oriente e de Santa Sara Kali, atuo como canal de luz, clareza e transformação na vida daqueles que buscam respostas sinceras.
+                A <strong className="text-amber-300 font-semibold">Tsara Yasmim</strong> nasceu como um templo sagrado de acolhimento espiritual, caridade e conexão com os mentores da linha cigana e a Falange do Oriente. Sob a proteção constante de Santa Sara Kali, nosso espaço físico e digital atua como um refúgio de paz para quem busca respostas sinceras e cura da alma.
               </p>
               <p>
-                Minha missão não é o misticismo do medo ou de falsas promessas, mas o <strong className="text-amber-300 font-semibold">atendimento oracular terapêutico</strong>. Cada carta do Baralho Cigano funciona como um mapa energético do seu momento, revelando caminhos abertos, desfazendo dúvidas no amor e nas finanças, e apontando os melhores rituais naturais para desbloquear seu fluxo de prosperidade.
+                Além das <strong className="text-amber-200">giras espirituais fraternas e passes magnéticos</strong>, dedico minha trajetória à arte oracular terapêutica do <strong className="text-amber-200">Tarot e Baralho Cigano</strong> — orientando pessoas no Brasil e no exterior através de leituras aprofundadas que desatam nós energéticos e abrem caminhos afetivos e materiais.
               </p>
               <p>
-                Ao longo de mais de 8 anos de caminhada com os oráculos e terapias holísticas, já conduzi centenas de pessoas no Brasil e no exterior ao reencontro com sua própria força e soberania de alma.
+                Como educadora espiritual, ministro <strong className="text-amber-300">cursos presenciais na Tsara e formações completas online</strong>, capacitando centenas de alunos a decifrarem as lâminas sagradas com autonomia, fundamentação técnica e profunda ética mediúnica.
               </p>
             </div>
 
-            {/* Pilares / Diferenciais */}
-            <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 pt-2">
+            {/* Pilares / Diferenciais da Tsara */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div className="p-4 rounded-xl glass-panel border border-amber-500/20 flex items-start gap-3">
                 <div className="p-2 rounded-lg bg-amber-500/10 text-amber-400">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Ética e Sigilo</h4>
-                  <p className="text-xs text-gray-300 mt-0.5">Espaço 100% seguro, acolhedor e livre de julgamentos.</p>
+                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Ética & Sigilo Absoluto</h4>
+                  <p className="text-xs text-gray-300 mt-0.5">Espaço 100% seguro, acolhedor e livre de qualquer julgamento.</p>
                 </div>
               </div>
 
@@ -80,18 +81,18 @@ export default function AboutSection() {
                   <Sun className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Oráculo Terapêutico</h4>
-                  <p className="text-xs text-gray-300 mt-0.5">Foco em soluções práticas para sua evolução pessoal.</p>
+                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Tarot Terapêutico</h4>
+                  <p className="text-xs text-gray-300 mt-0.5">Foco em soluções práticas e direcionamento para sua soberania.</p>
                 </div>
               </div>
 
               <div className="p-4 rounded-xl glass-panel border border-amber-500/20 flex items-start gap-3">
                 <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-400">
-                  <Feather className="w-5 h-5" />
+                  <BookOpen className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Magia Natural</h4>
-                  <p className="text-xs text-gray-300 mt-0.5">Ervas sagradas, cristais e rituais alinhados às luas.</p>
+                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Cursos Presenciais & Online</h4>
+                  <p className="text-xs text-gray-300 mt-0.5">Metodologia prática, baralho consagrado e certificado oficial.</p>
                 </div>
               </div>
 
@@ -100,23 +101,32 @@ export default function AboutSection() {
                   <Heart className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Acolhimento Real</h4>
-                  <p className="text-xs text-gray-300 mt-0.5">Atendimento personalizado com amor e escuta atenta.</p>
+                  <h4 className="font-cinzel text-sm font-bold text-amber-200">Caridade & Passes</h4>
+                  <p className="text-xs text-gray-300 mt-0.5">Giras públicas gratuitas e assistência espiritual fraterna.</p>
                 </div>
               </div>
             </div>
 
-            {/* Chamada para conversa */}
-            <div className="pt-2">
+            {/* Chamada para conversa e cursos */}
+            <div className="flex flex-wrap gap-4 pt-2">
               <a
-                href="https://wa.me/5511999999999?text=Ol%C3%A1%20Yasmim!%20Li%20sobre%20sua%20hist%C3%B3ria%20e%20gostaria%20de%20conversar%20sobre%20uma%20consulta."
+                href="#cursos"
+                onClick={() => mysticAudio.playClickSound()}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl btn-gold text-xs sm:text-sm font-bold tracking-wide shadow-lg"
+              >
+                <span>Ver Cursos Disponíveis</span>
+                <Sparkles className="w-4 h-4" />
+              </a>
+
+              <a
+                href="https://wa.me/5511999999999?text=Ol%C3%A1%20Yasmim!%20Li%20a%20hist%C3%B3ria%20da%20Tsara%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20giras%20e%20atendimentos."
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => mysticAudio.playClickSound()}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl btn-gold text-sm font-bold tracking-wide shadow-lg"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl btn-secondary text-xs sm:text-sm font-bold tracking-wide"
               >
-                <span>Conhecer Atendimentos Disponíveis</span>
-                <Sparkles className="w-4 h-4" />
+                <span>Conhecer o Centro Espírita</span>
+                <MapPin className="w-4 h-4 text-amber-400" />
               </a>
             </div>
           </div>

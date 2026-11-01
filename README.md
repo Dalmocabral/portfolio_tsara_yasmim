@@ -1,98 +1,93 @@
-# 🔮 Portfólio Místico de Tsara Yasmim | Baralho Cigano & Magia Natural
+# Tsara Yasmim — Portfólio Parallax & Templo Oracular 🔮✨
 
-Um portfólio web de alto padrão para **Tsara Yasmim** (Taróloga e Terapeuta Holística), combinando estética esotérica moderna com uma **Mesa de Baralho Cigano 3D interativa** desenvolvida com **Three.js** (inspirada nos conceitos de design da [ThreeUI](https://threeui.com/)).
+Website One-Page com efeito **Parallax** imersivo para **Centro Espírita Cigano**, atendimentos de **Tarot & Baralho Cigano**, e **Escola de Cursos Presenciais e Online**.
 
----
-
-## ✨ Funcionalidades Principais
-
-* **🎴 Mesa Oracular 3D Interativa (Hero Section)**:
-  * Mesa de veludo violeta texturizada com mandalas sagradas e campo de partículas estelares flutuantes.
-  * Leque com cartas do Baralho Cigano com verso dourado ornamentado.
-  * Efeito de **elevação/levitação no hover** do mouse.
-  * Ao clicar, a carta sobe ao centro da tela, faz um **giro 3D de 180°**, ativa faíscas douradas e revela a mensagem e conselho oracular do dia.
-  * Botão direto para agendar consulta completa no WhatsApp com mensagem personalizada preenchida automaticamente.
-* **🔊 Sistema de Áudio Místico (Web Audio API)**:
-  * Efeitos sonoros sutis de taça de cristal / sino tibetano (frequências de 528Hz e 741Hz) ao virar cartas.
-  * Trilha ambiente etérea de meditação com botão de controle (Ativar / Silenciar) na barra de navegação.
-* **🌿 Quem é Tsara Yasmim (Sobre Mim)**:
-  * Foto artística em estúdio esotérico com velas, cristais e baralho cigano.
-  * História, conexão com Santa Sara Kali e compromisso com o oráculo terapêutico ético.
-  * Badges de credibilidade: Ética e Sigilo, Oráculo Terapêutico, Magia Natural e Acolhimento Real.
-* **✨ Serviços & Rituais**:
-  * *Consulta Completa de Baralho Cigano* (Destaque - Amor, Finanças, Destino e Mandala Astrológica).
-  * *Mesa Radiônica & Harmonização de Chakras*.
-  * *Banhos de Ervas & Magia Natural*.
-  * *Tiragem Express (3 Perguntas Objetivas no WhatsApp)*.
-* **⭐ Depoimentos & Prova Social**:
-  * Avaliações com 5 estrelas e relatos reais de consulentes atendidos.
-* **❓ Dúvidas Frequentes (FAQ)**:
-  * Sanfona interativa respondendo dúvidas comuns sobre consultas à distância, livre-arbítrio e preparação.
-* **💬 Botão Flutuante do WhatsApp**:
-  * Botão com aura pulsante e balão de atendimento rápido fixo em todas as páginas.
+Desenvolvido em **React.js + Vite**, pronto para hospedagem no **GitHub Pages**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🌟 Destaques do Projeto
 
-* **React 19** com **Vite**
-* **Three.js** (Renderização 3D WebGL na mesa de cartas)
-* **Lucide React** (Ícones modernos)
-* **Canvas-Confetti** (Partículas místicas de celebração ao revelar a carta)
-* **Design System Vanilla CSS** (Totalmente responsivo, paleta Dark Velvet & Gold, glassmorphism e tipografia mística com as fontes *Cinzel*, *Cormorant Garamond* e *Plus Jakarta Sans*)
+1. **Efeito Parallax Fluido & Multicamadas**:
+   - Camadas cósmicas e estelares com movimentação suave em profundidade vinculadas ao scroll e movimento do mouse.
+   - Símbolos sagrados da tradição cigana (*Roda Cigana de 16 raios*, fases da lua, mandalas oraculares e faíscas douradas) com velocidades de deslocamento variadas.
+   - Banners parallax com citações e bênçãos de Santa Sara Kali.
+
+2. **Mesa Oracular 3D Interativa (Three.js)**:
+   - Mesa de veludo com mandala sagrada iluminada à luz de velas.
+   - Leque 3D de cartas do Baralho Cigano com física e elevação no hover.
+   - Revelação interativa com giro em 3D, confetes dourados, conselho do dia e botão direto para consulta no WhatsApp.
+
+3. **Cursos Presenciais & Online (Área Dedicada)**:
+   - Filtros interativos: *Todos os Cursos*, *Presenciais na Tsara* e *Online (Ao Vivo & Plataforma)*.
+   - Cards com carga horária, modalidades, diferenciais práticos (imersão ritualística no templo vs. plataforma vitalícia com mentoria).
+   - Selos de certificação e materiais inclusos (Baralho consagrado, apostilas, grupo VIP).
+
+4. **Centro Espírita Cigano & Atendimentos**:
+   - Apresentação do templo físico e da sacerdotisa/mentora Yasmim.
+   - Giras públicas fraternas e passes magnéticos (caridade espiritual).
+   - Consultas oraculares de Tarot e Baralho Cigano (presencial e por videochamada privada).
+   - Mesa Radiônica e Banhos de Ervas sagradas.
+
+5. **Formulário de Contato & Localização**:
+   - Formulário com seleção de interesse (*Curso Presencial*, *Curso Online*, *Consulta*, *Gira*).
+   - Feedback com celebração e redirecionamento formatado para o WhatsApp.
+   - Informações de endereço do templo, dias de gira, regras de visitação e canais oficiais.
+
+6. **Áudio Místico Síntetizado (Web Audio API)**:
+   - Frequências de Solfeggio harmônicas (528Hz e 741Hz), sino tibetano e drone meditativo ambiente, sem peso de arquivos MP3 externos.
 
 ---
 
-## 🚀 Como Rodar Localmente
+## 🚀 Como Executar Localmente
 
-1. Abra o terminal na pasta do projeto:
-   ```bash
-   cd d:\Programação\portfolio_tsara_yasmim
-   ```
-2. Instale as dependências (se ainda não o fez):
-   ```bash
-   npm install
-   ```
-3. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-4. Acesse no navegador:
-   `http://localhost:5173/`
+### Pré-requisitos
+- Node.js (v18+)
+- npm ou yarn
+
+### Instalação
+```bash
+# Instalar dependências
+npm install
+
+# Iniciar servidor de desenvolvimento
+npm run dev
+```
+Acesse no navegador: `http://localhost:5174`
 
 ---
 
-## 🌐 Como Publicar (Deploy)
+## 🌐 Como Publicar no GitHub Pages
 
-O projeto já está configurado para publicação em ambas as plataformas:
+Este projeto já está configurado com `base: './'` em `vite.config.js` e possui duas formas simples de publicação:
 
-### Opção 1: Vercel (Recomendado)
-1. Suba seu projeto para o GitHub:
+### Método 1: Automático via GitHub Actions (Recomendado)
+1. Crie um repositório no seu GitHub (ex: `portfolio_tsara_yasmim`).
+2. Suba o código para o repositório:
    ```bash
-   git init
    git add .
-   git commit -m "feat: portfolio tsara yasmim com mesa 3d"
-   git remote add origin https://github.com/SEU-USUARIO/portfolio_tsara_yasmim.git
-   git push -u origin main
+   git commit -m "feat: portfolio parallax tsara yasmim"
+   git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+   git push -u origin master
    ```
-2. Acesse [vercel.com](https://vercel.com) e conecte sua conta do GitHub.
-3. Importe o repositório `portfolio_tsara_yasmim`.
-4. O Vercel detectará o Vite automaticamente. Clique em **Deploy**!
+3. No GitHub, acesse **Settings** > **Pages** e, em **Build and deployment > Source**, escolha **GitHub Actions**.
+4. O workflow `.github/workflows/deploy.yml` compilará e publicará o site automaticamente!
 
-### Opção 2: GitHub Pages
-1. No arquivo `package.json`, adicione o campo homepage com o seu usuário:
-   ```json
-   "homepage": "https://SEU-USUARIO.github.io/portfolio_tsara_yasmim"
-   ```
-2. Execute o comando de deploy:
-   ```bash
-   npm run deploy
-   ```
-3. Nas configurações do seu repositório no GitHub (*Settings > Pages*), selecione a branch `gh-pages`.
+### Método 2: Manual via Script `gh-pages`
+```bash
+# Compila e envia a pasta dist diretamente para a branch gh-pages
+npm run deploy
+```
+No GitHub, acesse **Settings** > **Pages** e configure a fonte para a branch `gh-pages`.
 
 ---
 
-## ✏️ Como Personalizar os Contatos
+## 🛠️ Personalização Rápida
 
-* **WhatsApp**: Para trocar o número de telefone padrão `(11) 99999-9999`, basta procurar por `5511999999999` nos arquivos de `src/components/` e `src/data/baralhoCigano.js` e substituir pelo número real com DDD.
-* **Instagram**: No arquivo `src/components/Footer.jsx`, atualize o link do `@tsarayasmim.cigana` para o perfil desejado.
+- **Número do WhatsApp**: Altere nos componentes (`Navbar.jsx`, `ContactSection.jsx`, `ServicesSection.jsx`, `CoursesSection.jsx`, `FloatingWhatsApp.jsx`) substituindo `5511999999999` pelo número real da cliente com DDD.
+- **Textos dos Cursos e Serviços**: Edite facilmente o arquivo `src/data/baralhoCigano.js`.
+- **Endereço do Centro Espírita**: Atualize em `src/components/ContactSection.jsx` e `src/components/Footer.jsx`.
+
+---
+
+© Tsara Yasmim • Optchá! Salve Santa Sara Kali e o Povo Cigano.

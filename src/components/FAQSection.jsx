@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FAQ_ITEMS } from '../data/baralhoCigano';
-import { ChevronDown, HelpCircle, Sparkles, MessageCircle } from 'lucide-react';
+import { ChevronDown, Sparkles, MessageCircle } from 'lucide-react';
 import { mysticAudio } from '../utils/audio';
 
 export default function FAQSection() {
@@ -25,7 +25,7 @@ export default function FAQSection() {
             <Sparkles className="w-4 h-4 text-amber-400" />
           </div>
           <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-            Tudo o que você precisa saber sobre o funcionamento das consultas, a energia do Baralho Cigano e como se preparar para o seu atendimento.
+            Tudo o que você precisa saber sobre o funcionamento dos cursos presenciais e online, as giras do Centro Espírita e as consultas de Tarot.
           </p>
         </div>
 
@@ -69,10 +69,10 @@ export default function FAQSection() {
         <div className="mt-12 p-6 rounded-2xl bg-purple-950/40 border border-amber-500/20 text-center flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-left">
             <h4 className="font-cinzel text-amber-200 font-bold text-base">Ainda tem alguma dúvida específica?</h4>
-            <p className="text-xs text-gray-300 mt-0.5">Fale diretamente comigo pelo WhatsApp para esclarecer antes de agendar.</p>
+            <p className="text-xs text-gray-300 mt-0.5">Fale diretamente com Tsara Yasmim pelo WhatsApp para esclarecer antes de agendar ou matricular-se.</p>
           </div>
           <a
-            href="https://wa.me/5511999999999?text=Ol%C3%A1%20Yasmim!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20antes%20de%20agendar."
+            href="https://wa.me/5511999999999?text=Ol%C3%A1%20Yasmim!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20antes%20de%20agendar%20ou%20me%20matricular."
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => mysticAudio.playClickSound()}
