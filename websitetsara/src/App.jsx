@@ -49,6 +49,57 @@ const CERTIFICADOS = [
   },
 ]
 
+const CURSOS_OFERTADOS = [
+  {
+    id: 'petit-lenormand',
+    badge: 'Formação Oracular',
+    modalidade: 'Inscrições Abertas',
+    icon: '🔮',
+    title: 'Baralho Cigano (Petit Lenormand)',
+    subtitle: 'A Sabedoria Oracular das 36 Lâminas',
+    description:
+      'Uma caminhada profunda para desenvolver sua intuição, compreender os símbolos ancestrais e conduzir tiragens oraculares com ética, sensibilidade e precisão.',
+    topics: [
+      'Simbolismo e significado detalhado das 36 cartas',
+      'Métodos tradicionais de leitura, combinações e tiragens',
+      'Desenvolvimento da percepção intuitiva e conexão espiritual',
+      'Atendimento a consulentes com ética, acolhimento e sigilo',
+    ],
+  },
+  {
+    id: 'magia-cigana',
+    badge: 'Tradição & Rituais',
+    modalidade: 'Inscrições Abertas',
+    icon: '🕯️',
+    title: 'Magia Cigana',
+    subtitle: 'Práticas Sagradas & Forças da Natureza',
+    description:
+      'O despertar do poder sagrado dos elementos da natureza e os mistérios rituais do povo cigano. Aprenda a canalizar as forças da terra, do fogo, do ar e das águas com respeito e consciência.',
+    topics: [
+      'Trabalho com os 4 elementos sagrados da natureza',
+      'Uso ritualístico de ervas, banhos, defumações e velas',
+      'Rituais ciganos ancestrais para prosperidade, proteção e caminhos',
+      'Fundamentos espirituais, ética e respeito às tradições',
+    ],
+  },
+  {
+    id: 'ancestralidade-vivencias',
+    badge: 'Evolução Espiritual',
+    modalidade: 'Inscrições Abertas',
+    icon: '✦',
+    title: 'Ancestralidade Cigana & Vivências',
+    subtitle: 'Imersão Cultural & Ritos da Tsara',
+    description:
+      'Atividades práticas de evolução espiritual realizadas presencialmente na Tsara Manuche Yasmim. Uma oportunidade de conexão profunda com a história, a música, os ritos e a fraternidade cigana.',
+    topics: [
+      'História, cultura e preservação da identidade cigana',
+      'Práticas de evolução espiritual e ritos da Tsara',
+      'Vivências com cânticos, rezas e elementos tradicionais',
+      'Acolhimento fraterno e despertar da conexão ancestral',
+    ],
+  },
+]
+
 const GOOGLE_REVIEWS = [
   {
     id: 1,
@@ -486,6 +537,57 @@ function App() {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ========================================================
+            SEÇÃO: CURSOS & VIVÊNCIAS
+        ======================================================== */}
+        <section id="cursos" className="section cursos-section">
+          <div className="section-container">
+            <div className="section-header" style={{ textAlign: 'center', maxWidth: '820px', margin: '0 auto 48px' }}>
+              <span className="section-eyebrow">Sabedoria Ancestral & Formação</span>
+              <h2 className="section-title">Nossos Cursos & Vivências</h2>
+              <p className="section-subtitle">
+                Desenvolvimento espiritual, conexão com os oráculos e imersão nas tradições ciganas. Cursos e práticas destinados tanto a iniciantes quanto a quem busca aprofundar sua caminhada.
+              </p>
+            </div>
+
+            {/* Grid dos 3 Cursos Oferecidos */}
+            <div className="cursos-showcase-grid">
+              {CURSOS_OFERTADOS.map((curso) => (
+                <div key={curso.id} className="curso-card">
+                  <div className="curso-card-header">
+                    <div className="curso-badge-row">
+                      <span className="curso-tag">{curso.badge}</span>
+                      <span className="curso-modalidade-pill">
+                        <span className="status-live-dot"></span>
+                        {curso.modalidade}
+                      </span>
+                    </div>
+                    <div className="curso-icon-box">{curso.icon}</div>
+                    <h3 className="curso-title">{curso.title}</h3>
+                    <span className="curso-subtitle-text">{curso.subtitle}</span>
+                  </div>
+
+                  <div className="curso-card-body">
+                    <p className="curso-description">{curso.description}</p>
+
+                    <div className="curso-topics-box">
+                      <span className="curso-topics-title">O que você aprende e vivencia:</span>
+                      <ul className="curso-topics-list">
+                        {curso.topics.map((topic, i) => (
+                          <li key={i} className="curso-topic-item">
+                            <span className="topic-bullet">✦</span>
+                            <span>{topic}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
