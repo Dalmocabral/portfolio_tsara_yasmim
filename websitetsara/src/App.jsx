@@ -52,39 +52,47 @@ const CERTIFICADOS = [
 const GOOGLE_REVIEWS = [
   {
     id: 1,
-    name: 'Mariana Silveira',
-    avatar: 'M',
+    name: 'Aline Alves',
+    avatar: 'A',
     avatarColor: '#b89a64',
-    time: 'há 3 semanas',
+    time: 'há 4 semanas',
+    stats: '2 avaliações • 13 fotos',
+    profileUrl: 'https://www.google.com/maps/contrib/107009068996834084837/reviews?hl=pt-BR',
     rating: 5,
-    text: 'A consulta com a Aretha foi um verdadeiro divisor de águas na minha vida. O acolhimento, a clareza e a precisão do Baralho Cigano me trouxeram muita paz e discernimento para tomar decisões difíceis. Saí da consulta renovada! Gratidão imensa pelo carinho e respeito.',
+    text: 'Foi uma experiência única e muito esclarecedora, trouxe a tona muitas coisas que eu sentia e não sabia de onde vinha. Super recomendo!',
   },
   {
     id: 2,
-    name: 'Carlos Eduardo M.',
-    avatar: 'C',
+    name: 'Julia C. Souza',
+    avatar: 'J',
     avatarColor: '#5c7080',
-    time: 'há 1 mês',
+    time: 'há 9 semanas',
+    stats: '2 avaliações',
+    profileUrl: 'https://www.google.com/maps/contrib/106452044770672026755/reviews?hl=pt-BR',
     rating: 5,
-    text: 'Ambiente de pura luz, seriedade e respeito à cultura cigana. A Aretha conduz a leitura com uma sensibilidade impressionante. Ela não só esclareceu todas as minhas dúvidas com clareza como me deu direcionamentos valiosos. Recomendo de olhos fechados!',
+    text: 'Um local de muita luz, respeito à cultura cigana e profunda força espiritual! Tive a honra de acompanhar o reconhecimento do trabalho impecável da Sacerdotisa Aretha, que foi homenageada com uma Moção de Reconhecimento no ESTADO DO RIO DE JANEIRO por sua dedicação, liderança e preservação das tradições do Povo Cigano. A Tsara Espiritualista Manouche Yasmin é um espaço sério, acolhedor e de muita sabedoria. Recomendadíssimo para quem busca direcionamento e paz!',
   },
   {
     id: 3,
-    name: 'Patrícia Rezende',
-    avatar: 'P',
+    name: 'Maurício Sampaio Porto',
+    avatar: 'M',
     avatarColor: '#8a624a',
-    time: 'há 2 meses',
+    time: 'há 9 semanas',
+    stats: '3 avaliações',
+    profileUrl: 'https://www.google.com/maps/contrib/109572496864356782379/reviews?hl=pt-BR',
     rating: 5,
-    text: 'Fiz o atendimento online por videochamada e a energia foi tão forte, próxima e acolhedora quanto se estivesse no presencial. A leitura do Petit Lenormand foi certeira e muito esclarecedora. Dá para sentir a verdade e o amor naquilo que ela faz.',
+    text: 'Um lugar maravilhoso, cheio de paz, harmonia e luz! Trabalho espiritual muito sério, ético e acolhedor. Tenho muito orgulho e gratidão por fazer parte dessa caminhada! Recomendo demais!!!!',
   },
   {
     id: 4,
-    name: 'Juliana Freitas',
-    avatar: 'J',
+    name: 'Organize-se Papelaria',
+    avatar: 'O',
     avatarColor: '#7b5c80',
-    time: 'há 3 meses',
+    time: 'há 9 semanas',
+    stats: '1 avaliação',
+    profileUrl: 'https://www.google.com/maps/contrib/116405971084545212788/reviews?hl=pt-BR',
     rating: 5,
-    text: 'Experiência maravilhosa na Tsara Manuche Yasmim! A Aretha é uma orientadora iluminada, com uma escuta atenta, ética e uma sabedoria única. As orientações que recebi abriram caminhos e clarearam minha mente. Nota mil!',
+    text: 'Esse lugar é incrível e passa uma energia muito boa! Deu pra sentir o carinho e o respeito em todo o trabalho que é feito ali.',
   },
 ]
 
@@ -495,9 +503,15 @@ function App() {
               </p>
             </div>
 
-            {/* Selo Resumo do Google */}
+            {/* Selo Resumo do Google com link oficial */}
             <div className="google-badge-container">
-              <div className="google-rating-badge">
+              <a
+                href="https://share.google/42HEENd7GpYELkKza"
+                target="_blank"
+                rel="noreferrer"
+                className="google-rating-badge"
+                title="Ver perfil oficial e avaliações no Google Meu Negócio"
+              >
                 <div className="google-icon-wrap">
                   <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
                     <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
@@ -513,7 +527,8 @@ function App() {
                   </div>
                   <span className="google-badge-sub">Classificação excelente no Google Meu Negócio</span>
                 </div>
-              </div>
+                <span className="google-badge-action">Ver no Google ↗</span>
+              </a>
             </div>
 
             {/* Grid de Avaliações */}
@@ -529,7 +544,15 @@ function App() {
                     </div>
 
                     <div className="review-author-meta">
-                      <span className="review-author-name">{review.name}</span>
+                      <a
+                        href={review.profileUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="review-author-link"
+                        title={`Ver perfil de ${review.name} no Google Maps`}
+                      >
+                        <span className="review-author-name">{review.name}</span>
+                      </a>
                       <div className="review-rating-line">
                         <span className="review-stars">★★★★★</span>
                         <span className="review-time">• {review.time}</span>
@@ -549,13 +572,21 @@ function App() {
                   <p className="review-text">"{review.text}"</p>
 
                   <div className="review-footer">
-                    <span className="verified-badge">✓ Avaliação verificada no Google</span>
+                    <a
+                      href="https://share.google/42HEENd7GpYELkKza"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="verified-badge-link"
+                      title="Ver perfil oficial da Tsara no Google Meu Negócio"
+                    >
+                      <span className="verified-badge">✓ Avaliação no Google Meu Negócio ↗</span>
+                    </a>
                   </div>
                 </div>
               ))}
             </div>
 
-            {/* Ação para agendar consulta */}
+            {/* Ação para agendar consulta e ver avaliações no Google */}
             <div className="reviews-cta">
               <a
                 href="#contatos"
@@ -563,6 +594,15 @@ function App() {
                 title="Agende sua consulta e venha viver essa experiência"
               >
                 Agende Sua Consulta
+              </a>
+              <a
+                href="https://share.google/42HEENd7GpYELkKza"
+                target="_blank"
+                rel="noreferrer"
+                className="btn-secondary"
+                title="Ver avaliações e perfil oficial no Google Meu Negócio"
+              >
+                Ver Todas no Google ↗
               </a>
             </div>
           </div>
