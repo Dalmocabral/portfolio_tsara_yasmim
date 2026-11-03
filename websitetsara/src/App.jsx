@@ -15,7 +15,7 @@ const CERTIFICADOS = [
     id: 'cigano-basico-44h',
     img: cert4Img,
     badge: 'Baralho Cigano',
-    title: 'Petit Lenormand (Básico)',
+    title: 'Petit Lenormand',
     hours: '44 Horas',
     institution: 'Ministrado por Ana Cléa Candido da Silva',
     date: 'Rio de Janeiro',
@@ -90,7 +90,7 @@ const CURSOS_OFERTADOS = [
     title: 'Ancestralidade Cigana & Vivências',
     subtitle: 'Imersão Cultural & Ritos da Tsara',
     description:
-      'Atividades práticas de evolução espiritual realizadas presencialmente na Tsara Manuche Yasmim. Uma oportunidade de conexão profunda com a história, a música, os ritos e a fraternidade cigana.',
+      'Atividades práticas de evolução espiritual realizadas presencialmente na Tsara Manouche Yasmim. Uma oportunidade de conexão profunda com a história, a música, os ritos e a fraternidade cigana.',
     topics: [
       'História, cultura e preservação da identidade cigana',
       'Práticas de evolução espiritual e ritos da Tsara',
@@ -191,29 +191,35 @@ function App() {
         <section id="home" className="section hero-section">
           <div className="hero-container">
             <div className="hero-content">
-              <span className="section-eyebrow">Baralho Cigano & Numerologia Cabalística</span>
+              <span className="section-eyebrow">Atendimento Online &amp; Presencial • Rio de Janeiro</span>
               <h1 className="hero-title">
-                Online ou<br />Presencial
+                Consultas de Baralho Cigano &amp; Numerologia
               </h1>
 
               <div className="hero-description">
                 <p>
-                  Encontre clareza para suas dúvidas, compreenda melhor os desafios da vida e descubra novos horizontes através de uma consulta com o <strong>Baralho Cigano Petit Lenormand</strong> ou da elaboração do seu <strong>Mapa Numerológico Cabalístico</strong>.
+                  Para quem busca <strong>clareza, orientação espiritual e autoconhecimento</strong> através da sabedoria ancestral do <strong>Baralho Cigano Petit Lenormand</strong> e do <strong>Mapa Numerológico Cabalístico</strong>.
                 </p>
                 <p>
-                  Criamos o seu <strong>Mapa Numerológico Cabalístico</strong> completo e individualizado, decodificando as vibrações sagradas da sua data de nascimento e nome para revelar sua missão de alma, potenciais, desafios e ciclos evolutivos.
+                  Decodificamos os desafios da vida, seus ciclos evolutivos e potenciais com sensibilidade e respeito à sua jornada. Atendimento acolhedor, dedicado e com total sigilo, conduzido pela <strong>Sacerdotisa Aretha Equiavone Costa</strong>.
                 </p>
                 <p>
-                  Escolha entre o <strong>atendimento online</strong>, por videochamada, ou <strong>presencial</strong>. Em ambas as modalidades, você terá um atendimento acolhedor, dedicado e com total sigilo.
+                  Escolha entre a <strong>consulta online</strong> (por videochamada para todo o Brasil e exterior) ou <strong>presencial</strong> no Rio de Janeiro.
                 </p>
               </div>
 
               <div className="hero-actions">
-                <a href="#contatos" className="btn-primary">
-                  Agendar Consulta
+                <a
+                  href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20de%20Baralho%20Cigano%20e%20Numerologia%20na%20Tsara%20Manouche%20Yasmim."
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn-primary"
+                  title="Agendar consulta diretamente no WhatsApp"
+                >
+                  Agendar no WhatsApp
                 </a>
                 <a href="#sobre" className="btn-secondary">
-                  Saiba Mais
+                  Conhecer a Tsara
                 </a>
               </div>
             </div>
@@ -226,6 +232,7 @@ function App() {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
                 title="Clique para alternar entre Baralho Cigano e Mapa Numerológico Cabalístico"
+                aria-label="Alternar entre visualização do Baralho Cigano e Mapa Numerológico Cabalístico"
                 role="button"
                 tabIndex={0}
                 onKeyDown={(e) => {

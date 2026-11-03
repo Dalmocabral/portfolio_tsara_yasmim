@@ -55,11 +55,11 @@ export default function Navbar() {
             handleNavClick('Home', '#home')
           }}
         >
-          Tsara Manuche Yasmim
+          Tsara Manouche Yasmim
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="navbar-nav">
+        <nav className="navbar-nav" aria-label="Navegação principal">
           {NAV_ITEMS.map((item) => (
             <a
               key={item.label}
@@ -80,7 +80,8 @@ export default function Navbar() {
           type="button"
           className={`navbar-toggle ${mobileMenuOpen ? 'open' : ''}`}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Abrir menu"
+          aria-label={mobileMenuOpen ? 'Fechar menu de navegação' : 'Abrir menu de navegação'}
+          aria-expanded={mobileMenuOpen}
         >
           <span className="bar"></span>
           <span className="bar"></span>
@@ -90,7 +91,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
-        <nav className="mobile-menu">
+        <nav className="mobile-menu" aria-label="Menu de navegação mobile">
           {NAV_ITEMS.map((item) => (
             <a
               key={item.label}
