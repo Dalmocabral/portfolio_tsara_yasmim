@@ -309,11 +309,11 @@ function App() {
               {/* Coluna de Texto */}
               <div className="sobre-text-col">
                 <span className="section-eyebrow">Tradição & Ancestralidade</span>
-                <h2 className="section-title">Sobre a Tsara Manuche Yasmim</h2>
+                <h2 className="section-title">Sobre a Tsara Manouche Yasmim</h2>
 
                 <div className="sobre-paragraphs">
                   <p>
-                    A <strong>Tsara Manuche Yasmim</strong> é um espaço dedicado à espiritualidade, ao autoconhecimento e à valorização da cultura e da ancestralidade do povo cigano. Por meio do <strong>Baralho Cigano (Petit Lenormand)</strong>, de outros oráculos e da <strong>Numerologia</strong>, oferecemos consultas e orientações que ajudam a ampliar a compreensão sobre questões pessoais, refletir sobre os desafios da vida e descobrir novas perspectivas e possibilidades.
+                    A <strong>Tsara Manouche Yasmim</strong> é um espaço dedicado à espiritualidade, ao autoconhecimento e à valorização da cultura e da ancestralidade do povo cigano. Por meio do <strong>Baralho Cigano (Petit Lenormand)</strong>, de outros oráculos e da <strong>Numerologia</strong>, oferecemos consultas e orientações que ajudam a ampliar a compreensão sobre questões pessoais, refletir sobre os desafios da vida e descobrir novas perspectivas e possibilidades.
                   </p>
 
                   <p>
@@ -335,7 +335,7 @@ function App() {
                   </div>
 
                   <p>
-                    Na Tsara Manuche Yasmim, cada atendimento, curso e ensinamento representa uma oportunidade de aprendizado, acolhimento e conexão com uma tradição que merece ser respeitada, valorizada e transmitida às próximas gerações.
+                    Na Tsara Manouche Yasmim, cada atendimento, curso e ensinamento representa uma oportunidade de aprendizado, acolhimento e conexão com uma tradição que merece ser respeitada, valorizada e transmitida às próximas gerações.
                   </p>
                 </div>
               </div>
@@ -348,7 +348,7 @@ function App() {
                     setModalData({
                       src: aboutTsaraImg,
                       title: 'Moção de Louvor — Câmara Municipal do Rio de Janeiro',
-                      caption: 'Moção de Louvor, Congratulações e Aplausos concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin e à Sacerdote Aretha Equiavone Costa.',
+                      caption: 'Moção de Louvor, Congratulações e Aplausos concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin e à Sacerdotisa Aretha Equiavone Costa.',
                     })
                   }
                   title="Clique para ampliar a Moção de Louvor"
@@ -360,7 +360,7 @@ function App() {
                       setModalData({
                         src: aboutTsaraImg,
                         title: 'Moção de Louvor — Câmara Municipal do Rio de Janeiro',
-                        caption: 'Moção de Louvor, Congratulações e Aplausos concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin e à Sacerdote Aretha Equiavone Costa.',
+                        caption: 'Moção de Louvor, Congratulações e Aplausos concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin e à Sacerdotisa Aretha Equiavone Costa.',
                       })
                     }
                   }}
@@ -405,7 +405,7 @@ function App() {
                     setModalData({
                       src: orientadoraImg,
                       title: 'Aretha Equiavone Costa',
-                      caption: 'Sacerdote da Tsara Manuche Yasmim, Oraculista & Numeróloga',
+                      caption: 'Sacerdotisa da Tsara Manouche Yasmim, Oraculista & Orientadora Espiritual',
                     })
                   }
                   title="Clique para ampliar a foto"
@@ -417,7 +417,7 @@ function App() {
                       setModalData({
                         src: orientadoraImg,
                         title: 'Aretha Equiavone Costa',
-                        caption: 'Sacerdote da Tsara Manuche Yasmim, Oraculista & Numeróloga',
+                        caption: 'Sacerdotisa da Tsara Manouche Yasmim, Oraculista & Orientadora Espiritual',
                       })
                     }
                   }}
@@ -425,7 +425,7 @@ function App() {
                   <div className="orientadora-photo-frame">
                     <img
                       src={orientadoraImg}
-                      alt="Aretha Equiavone Costa - Sacerdote da Tsara Manuche Yasmim"
+                      alt="Aretha Equiavone Costa - Sacerdotisa da Tsara Manouche Yasmim"
                       className="orientadora-img"
                       loading="lazy"
                     />
@@ -444,11 +444,11 @@ function App() {
               <div className="orientadora-text-col">
                 <span className="section-eyebrow">Sacerdócio & Sensibilidade</span>
                 <h3 className="section-title">Aretha Equiavone Costa</h3>
-                <span className="orientadora-role-tag">Sacerdotisa da Tsara Manuche Yasmim • Oraculista e Orientadora Espiritual</span>
+                <span className="orientadora-role-tag">Sacerdotisa da Tsara Manouche Yasmim • Oraculista e Orientadora Espiritual</span>
 
                 <div className="sobre-paragraphs">
                   <p>
-                    Com mais de 10 anos de trajetória dedicada à espiritualidade, ao autoconhecimento e à valorização da cultura cigana, <strong>Aretha Equiavone Costa</strong> está à frente da <strong>Tsara Manuche Yasmim</strong>, desenvolvendo um trabalho pautado na sabedoria ancestral, no acolhimento e na transmissão de conhecimentos espirituais.
+                    Com mais de 10 anos de trajetória dedicada à espiritualidade, ao autoconhecimento e à valorização da cultura cigana, <strong>Aretha Equiavone Costa</strong> está à frente da <strong>Tsara Manouche Yasmim</strong>, desenvolvendo um trabalho pautado na sabedoria ancestral, no acolhimento e na transmissão de conhecimentos espirituais.
                   </p>
 
                   <p>
@@ -608,7 +608,7 @@ function App() {
               <span className="section-eyebrow">Experiências Reais & Confiança</span>
               <h2 className="section-title">O Que Dizem Nossos Consulentes</h2>
               <p className="section-subtitle">
-                Acolhimento, respeito e clareza. Confira os depoimentos de quem já passou por consultas e vivenciou a energia da Tsara Manuche Yasmim.
+                Acolhimento, respeito e clareza. Confira os depoimentos de quem já passou por consultas e vivenciou a energia da Tsara Manouche Yasmim.
               </p>
             </div>
 
@@ -698,11 +698,13 @@ function App() {
             {/* Ação para agendar consulta e ver avaliações no Google */}
             <div className="reviews-cta">
               <a
-                href="#contatos"
+                href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20na%20Tsara%20Manouche%20Yasmim."
+                target="_blank"
+                rel="noreferrer"
                 className="btn-primary"
-                title="Agende sua consulta e venha viver essa experiência"
+                title="Agendar consulta diretamente pelo WhatsApp"
               >
-                Agende Sua Consulta
+                Agendar Consulta no WhatsApp
               </a>
               <a
                 href="https://share.google/42HEENd7GpYELkKza"
@@ -754,7 +756,7 @@ function App() {
 
                 <div className="whatsapp-action-area">
                   <a
-                    href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manuche%20Yasmim."
+                    href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manouche%20Yasmim."
                     target="_blank"
                     rel="noreferrer"
                     className="btn-whatsapp-primary"
@@ -791,7 +793,7 @@ function App() {
       ======================================================== */}
       <footer className="footer">
         <div className="footer-container">
-          <span className="footer-logo">Tsara Manuche Yasmim</span>
+          <span className="footer-logo">Tsara Manouche Yasmim</span>
           <p className="footer-phone">
             WhatsApp:{' '}
             <a
@@ -804,14 +806,14 @@ function App() {
             </a>
           </p>
           <p className="footer-copy">
-            © 2026 Tsara Manuche Yasmim. Baralho Cigano & Numerologia. Todos os direitos reservados.
+            © 2026 Tsara Manouche Yasmim. Baralho Cigano & Numerologia. Todos os direitos reservados.
           </p>
         </div>
       </footer>
 
       {/* Botão Flutuante do WhatsApp */}
       <a
-        href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manuche%20Yasmim."
+        href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manouche%20Yasmim."
         target="_blank"
         rel="noreferrer"
         className="floating-whatsapp-btn"
@@ -831,6 +833,7 @@ function App() {
           onClick={() => setModalData(null)}
           role="dialog"
           aria-modal="true"
+          aria-labelledby="modal-doc-title"
         >
           <div
             className="certificate-modal-content"
@@ -850,7 +853,7 @@ function App() {
               className="modal-certificate-img"
             />
             {modalData.title && (
-              <h4 className="modal-title">{modalData.title}</h4>
+              <h4 id="modal-doc-title" className="modal-title">{modalData.title}</h4>
             )}
             {modalData.caption && (
               <p className="modal-caption-text">{modalData.caption}</p>

@@ -10,6 +10,8 @@
 
   --color-gold: #b89a64;
   --color-gold-hover: #9c7f4e;
+  --color-gold-text: #7b5921; /* Contraste WCAG AA (> 5.4:1) para textos sobre fundo claro */
+  --color-terracotta-text: #96471d; /* Contraste WCAG AA (> 6.3:1) para seções e eyebrows */
   --color-dark: #21201c;
   --color-dark-muted: #55534e;
 }

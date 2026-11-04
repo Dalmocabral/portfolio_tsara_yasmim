@@ -200,10 +200,10 @@ A Vercel é a plataforma recomendada para hospedar este projeto.
 
 ## 🌐 Configuração de Domínio Próprio
 
-Para utilizar um domínio registrado (ex: `tsaramanucheyasmim.com.br` no [Registro.br](https://registro.br)):
+Para utilizar um domínio registrado (ex: `tsaramanoucheyasmim.com.br` no [Registro.br](https://registro.br)):
 
 1. No painel do projeto na **Vercel**, vá em **Settings > Domains**.
-2. Digite seu domínio ou subdomínio (ex: `tsaramanucheyasmim.com.br` e `www.tsaramanucheyasmim.com.br`) e clique em **Add**.
+2. Digite seu domínio ou subdomínio (ex: `tsaramanoucheyasmim.com.br` e `www.tsaramanoucheyasmim.com.br`) e clique em **Add**.
 3. Adicione no painel do seu registrador de domínio os registros indicados pela Vercel:
    - **Registro A**: apontando para o IP da Vercel (`76.76.21.21`).
    - **Registro CNAME**: para `www`, apontando para `cname.vercel-dns.com`.

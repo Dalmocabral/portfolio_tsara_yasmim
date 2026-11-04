@@ -161,7 +161,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #c4784a;
+  color: var(--color-terracotta-text);
   margin-bottom: 14px;
 }
 
@@ -481,7 +481,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
 }
 
 .mocao-title {
@@ -589,7 +589,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   margin-bottom: 4px;
 }
 
@@ -695,7 +695,7 @@
   display: block;
   font-family: var(--font-nav);
   font-size: 13px;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   font-weight: 600;
   margin-top: 3px;
   letter-spacing: 0.3px;
@@ -706,7 +706,7 @@
   font-family: var(--font-nav);
   font-size: 14px;
   font-weight: 600;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   margin: -10px 0 16px 0;
   letter-spacing: 0.3px;
 }
@@ -799,7 +799,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   margin-bottom: 8px;
 }
 
@@ -833,7 +833,7 @@
   font-family: var(--font-nav);
   font-size: 13px;
   font-weight: 600;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -1082,7 +1082,7 @@
   font-family: var(--font-nav);
   font-size: 13px;
   font-weight: 600;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   letter-spacing: 0.02em;
   display: block;
 }
@@ -1833,5 +1833,19 @@
   .section-subtitle {
     font-size: 16px;
     line-height: 1.6;
+  }
+}
+
+/* ========================================================
+   ACESSIBILIDADE: PREFERS-REDUCED-MOTION (WCAG)
+======================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
