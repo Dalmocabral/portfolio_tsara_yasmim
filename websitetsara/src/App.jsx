@@ -8,7 +8,11 @@ import cert1Img from './assets/certificado-1.jpg'
 import cert2Img from './assets/certificado-2.jpg'
 import cert3Img from './assets/certificado-3.jpg'
 import cert4Img from './assets/certificado-4.jpg'
+import qrcodeMocaoImg from './assets/qrcode-mocao.png'
 import './App.css'
+
+const URL_MOCAO_CAMARA =
+  'https://aplicnt.camara.rj.gov.br/APL/Legislativos/scpro.nsf/5097d413bef5511203258632005692ff/03258c16006f052703258b1c007279dc?OpenDocument&Highlight=0,ARETHA,EQUIAVONE,COSTA'
 
 const CERTIFICADOS = [
   {
@@ -332,6 +336,18 @@ function App() {
                     <p>
                       Esse compromisso com a valorização e a divulgação da cultura cigana foi reconhecido pela <strong>Câmara Municipal do Rio de Janeiro</strong>, por meio de uma <strong>Moção de Louvor, Congratulações e Aplausos</strong> concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin, com destaque para o trabalho sacerdotal de <strong>Aretha Equiavone Costa</strong>. Essa homenagem representa um reconhecimento público da dedicação à preservação das tradições, da ancestralidade e dos valores culturais e espirituais do povo cigano.
                     </p>
+                    <div className="mocao-verify-action">
+                      <a
+                        href={URL_MOCAO_CAMARA}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-verify-mocao"
+                        title="Ver registro da moção no portal legislativo da Câmara Municipal do Rio de Janeiro"
+                      >
+                        <span>🏛️ Consultar Registro Oficial na Câmara Municipal</span>
+                        <span className="external-arrow">↗</span>
+                      </a>
+                    </div>
                   </div>
 
                   <p>
@@ -349,6 +365,8 @@ function App() {
                       src: aboutTsaraImg,
                       title: 'Moção de Louvor — Câmara Municipal do Rio de Janeiro',
                       caption: 'Moção de Louvor, Congratulações e Aplausos concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin e à Sacerdotisa Aretha Equiavone Costa.',
+                      linkUrl: URL_MOCAO_CAMARA,
+                      linkLabel: 'Consultar no site oficial da Câmara Municipal do Rio de Janeiro ↗',
                     })
                   }
                   title="Clique para ampliar a Moção de Louvor"
@@ -361,6 +379,8 @@ function App() {
                         src: aboutTsaraImg,
                         title: 'Moção de Louvor — Câmara Municipal do Rio de Janeiro',
                         caption: 'Moção de Louvor, Congratulações e Aplausos concedida à Tsara Espiritualista Estrela do Oriente Manouche Yasmin e à Sacerdotisa Aretha Equiavone Costa.',
+                        linkUrl: URL_MOCAO_CAMARA,
+                        linkLabel: 'Consultar no site oficial da Câmara Municipal do Rio de Janeiro ↗',
                       })
                     }
                   }}
@@ -376,11 +396,35 @@ function App() {
                       <span className="hint-pill">🔍 Clique para ampliar</span>
                     </div>
                   </div>
-                  <div className="certificate-caption-box">
+                </div>
+
+                {/* Bloco de Legenda com QR Code e Link de Verificação */}
+                <div className="certificate-caption-box">
+                  <div className="mocao-qrcode-wrap">
+                    <img
+                      src={qrcodeMocaoImg}
+                      alt="QR Code para consulta da Moção na Câmara Municipal do Rio de Janeiro"
+                      className="mocao-qrcode-img"
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="mocao-caption-details">
                     <span className="certificate-caption-tag">Documento Oficial</span>
                     <p className="certificate-caption-text">
                       Moção de Louvor, Congratulações e Aplausos — Câmara Municipal do Rio de Janeiro
                     </p>
+                    <a
+                      href={URL_MOCAO_CAMARA}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mocao-official-link"
+                      title="Acessar página oficial da moção na Câmara Municipal do Rio de Janeiro"
+                    >
+                      <span>Acessar registro no site da Câmara</span>
+                      <span>↗</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -857,6 +901,19 @@ function App() {
             )}
             {modalData.caption && (
               <p className="modal-caption-text">{modalData.caption}</p>
+            )}
+            {modalData.linkUrl && (
+              <div className="modal-link-wrap">
+                <a
+                  href={modalData.linkUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn-modal-external"
+                  title="Abrir página oficial do documento em nova aba"
+                >
+                  <span>🏛️ {modalData.linkLabel || 'Abrir Registro Oficial ↗'}</span>
+                </a>
+              </div>
             )}
           </div>
         </div>
