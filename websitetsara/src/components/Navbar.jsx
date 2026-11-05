@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import logoImg from '../assets/logo.png'
 
 const NAV_ITEMS = [
   { label: 'Home', href: '#home', id: 'home' },
@@ -54,8 +55,16 @@ export default function Navbar() {
             e.preventDefault()
             handleNavClick('Home', '#home')
           }}
+          title="Tsara Manouche Yasmim — Página Inicial"
         >
-          Tsara Manouche Yasmim
+          <img
+            src={logoImg}
+            alt="Logo Tsara Manouche Yasmim"
+            className="navbar-logo-img"
+            width="44"
+            height="44"
+          />
+          <span className="navbar-logo-text">Tsara Manouche Yasmim</span>
         </a>
 
         {/* Desktop Navigation */}

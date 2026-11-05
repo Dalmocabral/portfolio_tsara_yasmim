@@ -9,6 +9,7 @@ import cert2Img from './assets/certificado-2.jpg'
 import cert3Img from './assets/certificado-3.jpg'
 import cert4Img from './assets/certificado-4.jpg'
 import qrcodeMocaoImg from './assets/qrcode-mocao.png'
+import logoImg from './assets/logo.png'
 import './App.css'
 
 const URL_MOCAO_CAMARA =
@@ -837,7 +838,17 @@ function App() {
       ======================================================== */}
       <footer className="footer">
         <div className="footer-container">
-          <span className="footer-logo">Tsara Manouche Yasmim</span>
+          <div className="footer-brand">
+            <img
+              src={logoImg}
+              alt="Logo Tsara Manouche Yasmim"
+              className="footer-logo-img"
+              width="44"
+              height="44"
+              loading="lazy"
+            />
+            <span className="footer-logo">Tsara Manouche Yasmim</span>
+          </div>
           <p className="footer-phone">
             WhatsApp:{' '}
             <a
