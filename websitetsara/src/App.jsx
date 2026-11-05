@@ -215,7 +215,7 @@ function App() {
 
               <div className="hero-actions">
                 <a
-                  href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20de%20Baralho%20Cigano%20e%20Numerologia%20na%20Tsara%20Manouche%20Yasmim."
+                  href="https://wa.me/5521994754297?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20de%20Baralho%20Cigano%20e%20Numerologia%20na%20Tsara%20Manouche%20Yasmim."
                   target="_blank"
                   rel="noreferrer"
                   className="btn-primary"
@@ -743,7 +743,7 @@ function App() {
             {/* Ação para agendar consulta e ver avaliações no Google */}
             <div className="reviews-cta">
               <a
-                href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20na%20Tsara%20Manouche%20Yasmim."
+                href="https://wa.me/5521994754297?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20na%20Tsara%20Manouche%20Yasmim."
                 target="_blank"
                 rel="noreferrer"
                 className="btn-primary"
@@ -790,18 +790,18 @@ function App() {
                 <div className="whatsapp-phone-display">
                   <span className="phone-label">WhatsApp Oficial:</span>
                   <a
-                    href="https://wa.me/5521966397864"
+                    href="https://wa.me/5521994754297"
                     target="_blank"
                     rel="noreferrer"
                     className="phone-number-link"
                   >
-                    (21) 96639-7864
+                    (21) 99475-4297
                   </a>
                 </div>
 
                 <div className="whatsapp-action-area">
                   <a
-                    href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manouche%20Yasmim."
+                    href="https://wa.me/5521994754297?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manouche%20Yasmim."
                     target="_blank"
                     rel="noreferrer"
                     className="btn-whatsapp-primary"
@@ -852,12 +852,12 @@ function App() {
           <p className="footer-phone">
             WhatsApp:{' '}
             <a
-              href="https://wa.me/5521966397864"
+              href="https://wa.me/5521994754297"
               target="_blank"
               rel="noreferrer"
               className="footer-phone-link"
             >
-              (21) 96639-7864
+              (21) 99475-4297
             </a>
           </p>
           <p className="footer-copy">
@@ -868,17 +868,17 @@ function App() {
 
       {/* Botão Flutuante do WhatsApp */}
       <a
-        href="https://wa.me/5521966397864?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manouche%20Yasmim."
+        href="https://wa.me/5521994754297?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20consultas%20e%20cursos%20na%20Tsara%20Manouche%20Yasmim."
         target="_blank"
         rel="noreferrer"
         className="floating-whatsapp-btn"
-        title="Falar no WhatsApp (21) 96639-7864"
+        title="Falar no WhatsApp (21) 99475-4297"
         aria-label="Falar no WhatsApp"
       >
         <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
           <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 8.195-2.115c2.355 1.285 5.022 1.962 7.805 1.962 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.333c-2.493 0-4.933-0.669-7.067-1.933l-0.507-0.3-5.253 1.357 1.403-5.12-0.333-0.533c-1.393-2.22-2.133-4.787-2.133-7.471 0-7.351 5.983-13.333 13.333-13.333s13.333 5.983 13.333 13.333c0 7.351-5.983 13.333-13.333 13.333zM23.293 19.347c-0.4-0.2-2.367-1.167-2.733-1.3s-0.633-0.2-0.9 0.2c-0.267 0.4-1.033 1.3-1.267 1.567s-0.467 0.3-0.867 0.1c-0.4-0.2-1.689-0.623-3.217-1.985-1.189-1.060-1.992-2.369-2.225-2.769s-0.025-0.616 0.175-0.815c0.18-0.179 0.4-0.467 0.6-0.7 0.2-0.233 0.267-0.4 0.4-0.667 0.133-0.267 0.067-0.5-0.033-0.7s-0.9-2.167-1.233-2.967c-0.325-0.779-0.655-0.673-0.9-0.685-0.233-0.012-0.5-0.015-0.767-0.015s-0.7 0.1-1.067 0.5c-0.367 0.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c0.2 0.267 2.822 4.309 6.837 6.042 0.955 0.412 1.701 0.659 2.283 0.844 0.959 0.305 1.832 0.262 2.522 0.159 0.769-0.115 2.367-0.967 2.7-1.9 0.333-0.933 0.333-1.733 0.233-1.9s-0.367-0.267-0.767-0.467z" />
         </svg>
-        <span className="floating-tooltip">WhatsApp: (21) 96639-7864</span>
+        <span className="floating-tooltip">WhatsApp: (21) 99475-4297</span>
       </a>
 
       {/* Modal Lightbox para visualização de Certificados e Fotos em alta resolução */}

@@ -59,7 +59,7 @@ O projeto foi construído para apresentar de forma elegante, acolhedora e respon
    - Integração visual com avaliações 5.0 estrelas padrão Google Meu Negócio.
 
 6. **Atendimento Exclusivo via WhatsApp**:
-   - Canal único e oficial: `(21) 96639-7864`.
+   - Canal único e oficial: `(21) 99475-4297`.
    - Botão flutuante fixo no canto inferior com mensagem personalizada pronta para envio.
    - Links diretos com protocolo `wa.me`.
 
@@ -212,11 +212,11 @@ Para utilizar um domínio registrado (ex: `tsaramanoucheyasmim.com.br` no [Regis
 
 ## 📞 Contato Oficial
 
-- **Espaço**: Tsara Manouche Yasmin
+- **Espaço**: Tsara Manouche Yasmim
 - **Sacerdotisa & Orientadora**: Aretha Equiavone Costa
-- **WhatsApp Oficial**: [(21) 96639-7864](https://wa.me/5521966397864)
+- **WhatsApp Oficial**: [(21) 99475-4297](https://wa.me/5521994754297)
 - **Modalidades**: Consultas e Cursos Presenciais (Rio de Janeiro) e Online (Brasil e Exterior).
 
 ---
 
-© 2026 Tsara Manouche Yasmin. Todos os direitos reservados.
+© 2026 Tsara Manouche Yasmim. Todos os direitos reservados.
